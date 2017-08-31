@@ -1,0 +1,8 @@
+@model IEnumerable<CoreStore.Web.Models.Product>
+
+<ul>
+@foreach (var product in @Model)
+{
+    <li>@product.Name</li> 
+}
+</ul>
